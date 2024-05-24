@@ -55,8 +55,8 @@ a{
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px
-    padding: 24px 0;}
     
+}
 .span-logo-header{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -65,6 +65,7 @@ a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    padding: 24px 0 ;
 }
 /* ---------nav-------- */
 .container-nav{
@@ -76,6 +77,7 @@ align-items: center;
     display: flex;
     gap: 40px;
     margin-left: 76px;
+    padding: 24px 0;
 }
 .nav-list-link {
     font-family: "Roboto", sans-serif;
@@ -207,12 +209,18 @@ width: calc((100% - 72px) / 4)
     color: #434455;
 }
 /* ---------our team--------- */
+.team{
+    padding: 120px 0;
+}
+
 .container-team{
 padding-top: 120px;
 padding-bottom: 120px;
 background-color: #F4F4FD;
 }
-
+.container-team-item{
+    padding: 32px 0;
+}
 .team-list{
 display: flex;
 gap: 24px;
@@ -247,7 +255,7 @@ width:calc ((100% - 3 * 24) / 4);
     text-align: center;
     color: #2e2f42;
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-content{
@@ -268,7 +276,7 @@ padding-bottom: 120px;
 
 .portfolio{
     background-color: #F4F4FD;
-    
+    padding: 120px 0 120px 0;
 }
 .portfolio-title{
     font-weight: 700;
@@ -278,7 +286,7 @@ padding-bottom: 120px;
     text-align: center;
     color: #2e2f42; 
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px
 }
 
 .portfolio-list{
@@ -289,7 +297,7 @@ padding-bottom: 120px;
 }  
 .portfolio-list-item{
     background-color: #FFFFFF
-
+    
 }
 .portfolio-subtitle{
     font-weight: 500;
