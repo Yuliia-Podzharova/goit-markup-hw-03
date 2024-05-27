@@ -5,9 +5,9 @@ p,h1,h2,h3,h4,h5,h6{
 
 ol,ul{
     text-decoration:none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+    margin :0;
+    padding : 0;
+    list-style: none;
 }
 
 img{
@@ -39,11 +39,8 @@ a{
     border-bottom: 1px solid #e7e9fc;
 }
 .container-header{
-    padding-top: 25px;
-    padding-bottom: 25px;
     display: flex;
-    padding: 0 15px 0 15px;
-
+    align-items: center;
 }
 
 .logo-header{
@@ -79,8 +76,8 @@ align-items: center;
 .nav-list{
     display: flex;
     gap: 40px;
-    margin-left: 76px;
-    padding: 24px 0;
+    
+    
 }
 .nav-list-link {
     font-family: "Roboto", sans-serif;
@@ -131,9 +128,11 @@ padding: 188px 472px;
     line-height: 1.07;
     text-align: center ;
     letter-spacing: 0.02em;
-    
     color: #fff;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .hero-btn{
@@ -150,6 +149,7 @@ padding: 188px 472px;
     display: block;
     min-width: 169px;
     height: 56px;
+    margin: 0 auto;
 }
 .hero-btn:hover{
   background-color: #404BBF;
@@ -215,12 +215,13 @@ width: calc((100% - 72px) / 4)
 /* ---------our team--------- */
 .team{
     padding: 120px 0;
+    background-color: #F4F4FD;
 }
 
 .container-team{
 padding-top: 120px;
 padding-bottom: 120px;
-background-color: #F4F4FD;
+
 }
 .container-team-item{
     padding: 32px 0;
@@ -232,10 +233,8 @@ width:calc ((100% - 3 * 24) / 4);
 
 }
 .team-list-item{
-    margin-bottom: 120px;
     background-color: #fff;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     align-items: center;
     justify-content: center;
 }
@@ -258,7 +257,6 @@ width:calc ((100% - 3 * 24) / 4);
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -281,10 +279,10 @@ padding-bottom: 120px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+    
 }
 .portfolio{
-    background-color: #F4F4FD;
+    
     padding: 120px 0 120px 0;
 }
 .portfolio-title{
@@ -315,7 +313,6 @@ padding-bottom: 120px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -325,13 +322,12 @@ padding-bottom: 120px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
+    
 }
 
 /* --------footer----------- */
 .container-footer{
-padding-top: 100px;
-padding-bottom: 100px;
+
 
 }
 
@@ -368,5 +364,5 @@ color: #f4f4fd;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
-    padding-top: 16px;
+    
 }
